@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+#inputBusca {
+  background-color: #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+}
+#logo {
+  width: 75%;
+  margin-left: 10%;
+}
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#inputBusca::placeholder {
+  color: #fff;
+}
+.redeLogo {
+  height: 25px;
+}
+#imgPrimoRico {
+  width: 100vw;
+}
+#iconPesquisa {
+  color: #d8d1d1;
+  height: 10px;
+}
+.container-fluid {
+  height: 161px;
+  border-bottom: 1px solid #fff;
+  border-width: 80%;
+  background-color: #000;
+}
+#imgPrimoRico {
+  width: 100%;
+}
+.col-md-4col-md-12 > #percentagem {
+  display: flex;
+  flex-direction: row;
+}
+#percentagem > h1 {
+  text-align: center;
+  font-size: 90px;
+  color: #f00;
+}
+#textPercentagem {
+  text-align: center;
+  font-family: inter;
+  color: #000;
+}
+#sub-caixa {
+  display: block;
+}
+#caixa {
+  background-color: #fff;
+  border-bottom: 6px solid #f00;
+  position: absolute;
+  margin-top: 12.5rem;
+  display: flex;
+  top: 18rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 6px;
+  border: 1px double #f00;
+  justify-content: space-around;
+}
+
+#subTitulo,
+#subParagrafo {
+  margin-top: 8rem;
+}
+#imgLateral {
+  max-height: 60%;
+  margin-top: 11rem;
+  justify-content: center;
+}
+@media (max-width: 450px) {
+  #subTitulo {
+    margin-top: 16rem;
+  }
+  /* #bgPrimoRico{
+    margin-top: 30rem;
+  } */
+}
+@media (max-width: 991px) {
+  #imgLateral {
+    position: absolute;
+    max-height: 50%;
+    margin-top: 4rem;
+    justify-content: center;
+    top: 86em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #subParagrafo {
+    margin-top: 3rem;
+  }
+  #subTitulo {
+    margin-top: 20rem;
+  }
+  #sub-caixa {
+    margin-top: 20rem;
+  }
+  #caixa {
+    margin-top: 20.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #bgPrimoRico{
+    margin-top: 30rem;
+  }
+}
+@media (min-width: 1115px) {
+  #caixa {
+    margin-top: 16rem;
+  }
+}
+@media (min-width: 1250px) {
+  #caixa {
+    margin-top: 15rem;
+  }
+}
+@media (min-width: 1500px) {
+  #caixa {
+    margin-top: 19rem;
+  }
+}
+@media (min-width: 1700px) {
+  #caixa {
+    margin-top: 20rem;
+  }
+}
+@media (min-width: 1900px) {
+  #caixa {
+    margin-top: 23.5rem;
+  }
+}
+@media (min-width: 2000px) {
+  #caixa {
+    margin-top: 25.5rem;
+  }
+}
+
+#bgPrimoRico {
+  width: 86vw;
+  border-radius: 5px;
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#coment{
+  border-radius: 10px;
+  border:2px solid #000;
+  margin-top: 15px;
+}
+#estrelas{
+  margin-left: 38%;
+}
+
+#depoimento{
+  margin-top: 15px;
+}
+p{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+#subTitulo{
+  font-family: Inter;
+  color:#f00;
+  font-weight: 700;
+}
+#investir{
+  font-size: 32px;
+  font-family: Inter;
+  border-radius: 20px;
+  background-color: #f00;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: none;
+ margin-top: 10px;
+ border-bottom:2px solid #f00;
+}
+#espaco{
+  margin-top: 25px;
+  
+}
+.col-md-4{
+  border: 2px solid #000;
+  padding: 5px;
+  border-radius: 15px;
+}
+svg.bi {
+  fill: #f00;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content : center;
+}
+footer{
+  background: #171717;
+}
+#textFooter{
+  color: #fff;
+  padding: 5px;
+}
+#imgFooter{
+  height: 70%;
+}
